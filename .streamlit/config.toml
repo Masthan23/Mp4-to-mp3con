@@ -1,0 +1,16 @@
+[server]
+maxUploadSize = 10240        # 10 GB in MB
+maxMessageSize = 10240
+enableCORS = false
+enableXsrfProtection = true
+headless = true              # required for cloud hosting
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+backgroundColor = "#0f0f1a"
+secondaryBackgroundColor = "#1a1a40"
+primaryColor = "#7c6fff"
+textColor = "#dde0ff"
