@@ -1,9 +1,9 @@
 [server]
-maxUploadSize = 10240        # 10 GB in MB
+maxUploadSize = 10240
 maxMessageSize = 10240
 enableCORS = false
 enableXsrfProtection = true
-headless = true              # required for cloud hosting
+headless = true
 
 [browser]
 gatherUsageStats = false
